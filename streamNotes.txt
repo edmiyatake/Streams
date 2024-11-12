@@ -13,3 +13,11 @@ BYTE STREAMS
 - Programs use Byte Streams to perform input and output operations on 8-bit bytes
 - Byte Stream classes are descendants of InputStream and OutputStream classes
 
+CHARACTER STREAMS
+- Java stores character values as unicode conventions
+- Character input/output streams automatically translate unicode -> ASCII
+- For files with characters, it's usually simpler to use character streams over byte streams
+    - due to the fact that it translates to ASCII automatically
+- Character Streams are descendants or Reader and Writer classes
+- Later on, since the format is already in characters, we can use BufferedReader and PrintWriter
+- these classes help us take in large files by line instead of by character
