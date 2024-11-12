@@ -1,0 +1,15 @@
+INPUT / OUTPUT STREAMS
+- An I/O stream can either be an input source and an output destination
+- Streams can take in or spit out different kinds of data
+- A stream is a sequence of data
+- A program that uses an input stream reads in data from a source, one element at a time
+- A program that uses an output stream would write data to a destination, one element at a time
+
+Conceptually:
+- Input streams would take in data from a source and apply it to a program
+- Output streams take data from a program and send it to a destination
+
+BYTE STREAMS
+- Programs use Byte Streams to perform input and output operations on 8-bit bytes
+- Byte Stream classes are descendants of InputStream and OutputStream classes
+
