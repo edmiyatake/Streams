@@ -21,3 +21,12 @@ CHARACTER STREAMS
 - Character Streams are descendants or Reader and Writer classes
 - Later on, since the format is already in characters, we can use BufferedReader and PrintWriter
 - these classes help us take in large files by line instead of by character
+
+BUFFERED STREAMS
+- unbuffered streams indicate that each read/write request is hanndled by the underlying OS 
+- this causes prgrams to be less efficient due to disk access/ network activity/ etc 
+- A buffered stream reads data from a memory area called a buffer 
+- buffered output stream can write data to a buffer 
+- BufferedInputStream, BufferedOutputStream for buffered byte streams
+- BufferedReader, Buffered Writer for buffered character streams
+- buffers in output streams need to be flushed
